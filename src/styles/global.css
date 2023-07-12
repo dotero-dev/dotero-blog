@@ -81,3 +81,28 @@ font-size: 2.5rem;
       display: none;
     }
   }
+
+  html.dark {
+    background-color: #0d0950;
+    color: #fff;
+  }
+  
+  .dark .nav-links a {
+    color: #fff;
+  }
+
+  a {
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: #4c1d95;
+    text-decoration: none;
+  }  
+  
+  .dark .socialIcon{
+    background-color: #ffffff;
+    color: #000;
+  }
+  .dark .socialIcon:hover{
+    background-color: #8542ea;
+    color: #ffffff;
+  }
